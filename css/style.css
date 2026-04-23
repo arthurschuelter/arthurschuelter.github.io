@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px; /* Space for the absolute header */
+    font-family: sans-serif;
+    line-height: 1.6;
+    /* color: #333; */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    /* background-color: #333; */
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    z-index: 1000;
+
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    /* font-weight: bold; */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #555;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 40px;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 300px;
+    padding-top: 60px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    height: fit-content;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #eee;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left-column h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.university {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.small-bio {
+    font-size: 0.85rem;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.left-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-column ul li {
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+}
+
+.left-column a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.right-column {
+    flex: 3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-column {
+        max-width: none;
+        padding-top: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+h1, h2 {
+    color: #222;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 0;
+}
+
+#papers-list {
+    list-style: none;
+    padding: 0;
+}
+
+#papers-list li {
+    padding: 4px 8px;
+    /* background: #f9f9f9; */
+    /* border-radius: 5px; */
+    /* border-left: 4px solid #333; */
+}
