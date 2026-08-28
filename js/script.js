@@ -1,8 +1,5 @@
 const papersList = document.getElementById('papers-list');
 
-/**
- * Loads the manifest of papers and then fetches each paper's data.
- */
 async function loadAllPapers() {
     try {
         const manifestResponse = await fetch('./publications/index.json');
