@@ -76,13 +76,13 @@ nav a:hover {
 
 .left-column h1 {
     font-size: 1.3rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0rem;
 }
 
 .university {
     color: #666;
     font-size: 0.85rem;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .small-bio {
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .left-column ul li {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     font-size: 0.85rem;
 }
 
