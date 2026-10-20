@@ -154,3 +154,27 @@ hr {
     /* border-radius: 5px; */
     /* border-left: 4px solid #333; */
 }
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    margin-bottom: 0.5rem;
+}
+
+.link-list a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.link-list .icon {
+    width: 24px !important;
+    height: 24px !important;
+    flex-shrink: 0;
+    object-fit: contain;
+}
