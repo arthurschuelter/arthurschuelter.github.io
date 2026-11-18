@@ -1,3 +1,4 @@
 # To Do List
 
-- [ ] Add icons to small-bio container links
+- [x] Add icons to small-bio container links
+- [ ] Blog posts
